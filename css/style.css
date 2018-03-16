@@ -112,14 +112,12 @@ div#banner-top h1 {
     font-family: 'Abril Fatface', cursive;
 }
 div#banner-top h1 span.left-icon {
-  background: url(../images/left.png) no-repeat 0px 15px;
   width: 204px;
   height: 80px;
   display: block;
   float: left;
 }
 div#banner-top h1 span.right-icon {
-  background: url(../images/right.png) no-repeat 0px 15px;
   width: 204px;
   height: 80px;
   display: block;
