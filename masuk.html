@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Websites Saya</title>
+		<style type="text/css">
+			.text{
+				margin-top: auto;
+			}
+			body {
+				text-align: center;background-color: blue;color: white;
+			}
+			button {
+				border: 10px solid #73AD21;background-color: black;color: white;padding: 8px;border-radius: 8px;border-color: lightblue;font-weight: bold;
+			}
+			.awal {
+				margin: auto;margin-top: 150px;width: 40%;border: 15px solid #73AD21;padding: 5px;			
+			}
+		</style>
+</head>
+<body>
+	<div class="awal">
+		<div class="text">
+			<h3>Silahkan Click Tombol Di Bawah Ini</h3>
+			<h3>Jangan Segan-Segan</h3>
+			<button onclick="myFunction()">START</button>
+		</div>
+	</div>
+		<script>
+			function myFunction() {
+			    var person = prompt("Masukkan Nama Yang Valid");
+			    if (person == "Restu Alamsyah" || person == "restu alamsyah") {
+			    	alert("Anda Berhasil Masuk")
+			        window.location.assign("file:///D:/data%20kuliah/semester%204/pemweb/profilku/web/index.html")
+			    }
+			    else {
+			    	alert("Anda Gagal Masuk")
+			    }
+			}
+		</script>
+</body>
+</html>
