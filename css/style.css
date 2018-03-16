@@ -117,12 +117,6 @@ div#banner-top h1 span.left-icon {
   display: block;
   float: left;
 }
-div#banner-top h1 span.right-icon {
-  width: 204px;
-  height: 80px;
-  display: block;
-  float: right;
-}
 div#banner-top h2 {
   font-size: 3.6em;
   padding: .5em 0;
